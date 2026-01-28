@@ -30,7 +30,7 @@ public class calculator {
                 break;
             case '/':
                 if (num2 == 0 || num3 == 0) {
-                    System.out.println("Error: Division by zero is not allowed.");
+                    System.out.println("Error: Division by zero is not allowed.Division by zero error");
                     scanner.close();
                     return; 
                 }
