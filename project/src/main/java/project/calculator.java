@@ -42,9 +42,8 @@ public class calculator {
                 return; 
         }
 
-        
+        system.out.println("error"); 
         System.out.println("\nThe result is: " + result);
         scanner.close();
     }
-}
-        
+}   
